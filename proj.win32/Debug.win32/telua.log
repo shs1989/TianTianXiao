@@ -1,0 +1,37 @@
+﻿生成启动时间为 2014-2-10 1:06:15。
+     1>项目“D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\telua.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\telua.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PreBuildEvent:
+         xcopy "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\..\..\..\scripting\lua\script" "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\..\Resources" /e /Y
+         :VCEnd
+         D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\..\..\..\scripting\lua\script\AudioEngine.lua
+         D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\..\..\..\scripting\lua\script\CCBReaderLoad.lua
+         复制了 2 个文件
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       PreLinkEvent:
+         if not exist "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\" mkdir "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\telua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libCocosDenshion.lib liblua.lib lua51.lib websockets.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\telua.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\telua.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\telua.lib" /MACHINE:X86 Debug.win32\telua.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\telua.exe.embed.manifest" /manifest Debug.win32\telua.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         telua.vcxproj -> D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\Debug.win32\telua.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\telua.unsuccessfulbuild”。
+         正在对“Debug.win32\telua.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\cocos2d-x-2.2.1\cocos2d-x-2.2.1\projects\telua\proj.win32\telua.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.90
